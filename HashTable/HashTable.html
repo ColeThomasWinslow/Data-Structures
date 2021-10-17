@@ -23,5 +23,52 @@
       <a href="../LinkedList/LinkedList.html">Linked List</a>
       <a href="../Trees/Trees.html">Trees</a>
     </div>
+    <div>
+      <h2>Hash Tables { }</h2>
+      <a href="./HashTable.js">Javascript With Comments (Hash Table) </a>
+      <div class="half">
+        <h3>how a hash table work?</h3>
+        <p class="text" style="box-shadow: black 2px 2px 10px">
+          A hash table uses a hash function to compute an index, also called a
+          hash code, into an array of slots, from where you can accuses the
+          data. The hash function has to be sufficient enough to prevent
+          collisions. Collisions occurs when the next number to be proceeded
+          gets put into a slot of the array where there is already a key value
+          pair placed due to the size of the array. If there is to many
+          collision it effects the time complexity drastically when retrieving
+          values out of a hash table
+        </p>
+        <div class="sm">
+          <h4>Key Value</h4>
+          <h2>⬇️</h2>
+          <h4>Hashing Function =></h4>
+          <div class="hash">
+            <div class="cube">
+              <h1>1</h1>
+              <h2 class="value">cat</h2>
+            </div>
+            <div class="cube"></div>
+            <div class="cube">
+              <h1>3</h1>
+              <h2 class="value">bear</h2>
+            </div>
+            <div class="cube"></div>
+            <div class="cube">
+              <h1>5</h1>
+              <h2 class="value">dog</h2>
+            </div>
+            <div class="cube">
+              <h1>6</h1>
+              <h2 class="value">Zebra</h2>
+            </div>
+          </div>
+        </div>
+        <div class="text red">
+          assuming all array slots are filled and if the next numbers value is 3
+          there would be a collision at the value of place 3 because it already
+          exists
+        </div>
+      </div>
+    </div>
   </body>
 </html>

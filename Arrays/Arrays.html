@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Arrays [ ]</title>
   </head>
   <body>
-
     <div
       style="
         display: flex;
@@ -15,61 +15,111 @@
         align-items: center;
         justify-content: space-around;
       "
-    ><a href="../index.html">Home</a>
+    >
+      <a href="../index.html">Home</a>
       <a href="../Arrays/Arrays.html">Arrays</a>
       <a href="../Graphs/Graphs.html">Graphs</a>
       <a href="../HashTable/HashTable.html">HashTable</a>
       <a href="../LinkedList/LinkedList.html">Linked List</a>
       <a href="../Trees/Trees.html">Trees</a>
     </div>
-    <h2>Arrays</h2>
+    <h2>Arrays [ ]</h2>
     <a href="./Arrays.Js">Javascript With Comments (Arrays) </a>
     <div>
       <h4>There Are Two Types of Arrays</h4>
-      <div>
-        <h5 style="z-index:10;margin-bottom:0px;box-shadow: black 2px 2px 10px;margin-bottom:0px; background: cornflowerblue; color:white; padding:5px;">
-          Static Array (Sometimes Used In Javascript with Array Constructor )
-        </h5>
-<div class="half">
-        <p class="text" style=" z-index:-10;box-shadow: black 2px 2px 10px;">
+      <div class="half">
+      <h5
+        style="
+          z-index: 10;
+          width:50vw;
+          margin-bottom: 0px;
+          box-shadow: black 2px 2px 10px;
+          margin-bottom: 0px;
+          background: cornflowerblue;
+          color: white;
+          padding: 5px;
+        "
+      >
+        Static Array (Sometimes Used In Javascript with Array Constructor )
+      </h5>
+      <div class="half">
+        <p class="text" style="z-index: -10; box-shadow: black 2px 2px 10px">
           If the array is static, when you declare your variable you have to
           specific the amount of items that will be in your array so that your
           OS will have enough space in memory. Also arrays are stored in memory
           contiguously, meaning the memory spaces will always be stored back to
           back wether its dynamic or static.
-        </p></div>
+        </p>
       </div>
-      <div>
-        <h5 style=" z-index:10;margin-bottom:0px;box-shadow: black 2px 2px 10px; background:  rgb(255, 171, 92); color:white; padding:5px;">Dynamic Array ✅ All Arrays In Javascript</h5>
-        <div class="half"> 
-        <p class="text" style=" z-index:-10; box-shadow: black 2px 2px 10px;">
+    </div>
+    <div class="half">
+      <h5
+        style=" width:50vw;
+          z-index: 10;
+          margin-bottom: 0px;
+          box-shadow: black 2px 2px 10px;
+          background: rgb(255, 67, 43);
+          color: white;
+          padding: 5px;
+        "
+      >
+        Dynamic Array ✅ All Arrays In Javascript
+      </h5>
+      <div class="half">
+        <p class="text" style="z-index: -10; box-shadow: black 2px 2px 10px">
           If the Array is Dynamic, it means that when it is declared you don't
           have to specify the amount of the starting array and within memory it
           knows the arrays length so it can allocate more memory as it continues
           to grow and need more space.
-        </p></div>
+        </p>
       </div>
-      <h5>Complexity Analysis</h5>
-      <div class="half">
-      <div class="text" style="box-shadow: black 2px 2px 10px;">
-
+    </div>
+    <h5>Complexity Analysis</h5>
+    <div class="half">
+      <div class="text" style="box-shadow: black 2px 2px 10px">
         <p>Get An Item from an Array: <strong>O(1)</strong></p>
         <p>Setting Item from an Array: <strong>O(1)</strong></p>
         <p>Initializing An Array: <strong>O(N)</strong></p>
         <p>Traversing An Array: <strong>O(N)</strong></p>
         <p>Copying An Array:<strong>O(N) Space</strong></p>
         <p>Adding New Items: <strong>Depends on Static Or Dynamic</strong></p>
-        <div style="display:flex; justify-content: space-evenly; flex-wrap: wrap;">
-    <div style="width:250px;height:200px;">
-        <h5 style="background: cornflowerblue; color:white; padding:5px; margin-bottom:0px;">Static <strong>O(N)</strong></h5>
-        <p style="height:90px; background: white; margin-top:0px;">You need to copy the whole array then create a new array with the newly added data</p>
-    </div>
-    <div style="width:250px;">
-        <h5 style="background: rgb(255, 171, 92); color:white; padding:5px; margin-bottom:0px;">Dynamic <strong>O(1)</strong></h5>
-        <p style="height:90px; background: white; margin-top:0px;"> With Dynamic arrays you already have allocated extra space in memory when you created it so adding inst very costly</p>
+        <div
+          style="display: flex; justify-content: space-evenly; flex-wrap: wrap"
+        >
+          <div style="width: 250px; height: 200px; margin:10px;">
+            <h5
+              style="
+                background: cornflowerblue;
+                color: white;
+                padding: 5px;
+                margin-bottom: 0px;
+              "
+            >
+              Static <strong>O(N)</strong>
+            </h5>
+            <p style="height: 90px; background: white; margin-top: 0px">
+              You need to copy the whole array then create a new array with the
+              newly added data
+            </p>
+          </div>
+          <div style="width: 250px; margin:10px;">
+            <h5
+              style="
+                background: rgb(255, 67, 43);
+                color: white;
+                padding: 5px;
+                margin-bottom: 0px;
+              "
+            >
+              Dynamic <strong>O(1)</strong>
+            </h5>
+            <p style="height: 90px; background: white; margin-top: 0px">
+              With Dynamic arrays you already have allocated extra space in
+              memory when you created it so adding inst very costly
+            </p>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
     </div>
   </body>
 </html>
